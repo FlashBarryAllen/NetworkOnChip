@@ -13,7 +13,7 @@
 */
 
 #include "networkinterfacefrontendbase.h"
-
+#define 	SC_KERNEL_EVENT_PREFIX   "$$$$kernel_event$$$$_"
 NetworkInterfaceFrontEndBase::NetworkInterfaceFrontEndBase() :
     _payloadDst(0),
     _payloadSrc(0),

@@ -57,7 +57,7 @@ void connectProcessorElementToNoC(const std::vector<NetworkInterface *> &network
 /*!
  * \brief Main Function
  */
-int main(int argc, char *argv[])
+int sc_main(int argc, char *argv[])
 {
     // Routers
     NoCDebug::printDebug(std::string("Adding Routers:"), NoCDebug::Assembly);

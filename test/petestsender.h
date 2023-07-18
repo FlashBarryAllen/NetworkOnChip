@@ -34,13 +34,13 @@ public:
      * \brief Getter to retrieve the test message.
      * \return  the test message.
      */
-    const std::__cxx11::string &getMessage();
+    const std::string &getMessage();
 
     /*!
      * \brief Getter to retrieve the module name.
      * \return  the module name.
      */
-    const std::__cxx11::string getName();
+    const std::string getName();
 };
 
 #endif // PETESTSENDER_H

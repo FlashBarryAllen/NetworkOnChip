@@ -17,7 +17,7 @@
 #include "nocdebug.h"
 
 unsigned RouterChannel::_channelCounter = 0;
-
+#define 	SC_KERNEL_EVENT_PREFIX   "$$$$kernel_event$$$$_"
 RouterChannel::RouterChannel(const sc_module_name &name) :
     sc_prim_channel(name),
     _channelId(_channelCounter),
